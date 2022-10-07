@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(193, 35, 35);
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/cropped-1440-400-1062227.jpg);
+}
+
+.title {
+    top: 150px;
+    position: relative;
+    font-size: 30px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+.containerProfiles {
+    position: relative;
+    width: 100%;
+    height: 4400px;
+    background-image: url(./images/584518.jpg);
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(193, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*James*/
+
+.descriptionA {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionA h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionA p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+/*Mary*/
+
+.descriptionB {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionB h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionB p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+/*Maria*/
+
+.descriptionC {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionC h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionC p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+/*Eddie*/
+
+.descriptionD {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionD h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionD p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+/*Laura*/
+
+.descriptionE {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionE h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionE p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+/*Angela*/
+
+.descriptionF {
+    position: relative;
+    float: right;
+    width: 65%;
+    height: 650px;
+    top: 25px;
+    right: 25px;
+}
+
+.descriptionF h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.descriptionF p {
+    top: 5px;
+    font-size: 23px;
+    color: rgb(219, 219, 219);
+}
+
+.profileA, .profileB, .profileC, .profileD, .profileE, .profileF {
+    position: relative;
+    width: 70%;
+    height: 700px;
+    background-color: rgb(1, 1, 1);
+    left: 220px;
+    top: 15px;
+    margin-top: 20px;
+    border-radius: 11px;
+    opacity: 0.9;
+}
+
+/*photo*/
+
+.photoA {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/jamesSundeland.png);
+    top: 25px;
+    left: 25px;
+    height: 650px;
+    background-color: aqua;
+}
+
+.photoB {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/marySundeland.jpg);
+    top: 30px;
+    left: 25px;
+    height: 650px;
+}
+
+.photoC {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/maria.jpg);
+    top: 30px;
+    left: 25px;
+    height: 650px;
+}
+
+.photoD {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/eddieDrobsoskksao.jpg);
+    top: 30px;
+    left: 25px;
+    height: 650px;
+}
+
+.photoE {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/laura.jpg);
+    top: 30px;
+    left: 25px;
+    height: 650px;
+}
+
+.photoF {
+    position: relative;
+    float: left;
+    width: 300px;
+    background-image: url(./images/angelaOrosco.jpg);
+    top: 30px;
+    left: 25px;
+    height: 650px;
+}
+
